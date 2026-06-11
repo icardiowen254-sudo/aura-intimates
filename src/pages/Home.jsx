@@ -48,13 +48,6 @@ const orderSteps = [
   { title: 'Receive updates', desc: 'Get confirmation, support follow-up, and delivery tracking.' },
 ];
 
-const businessStats = [
-  { value: '24h', label: 'Response time' },
-  { value: 'Kenya', label: 'Delivery coverage' },
-  { value: '100%', label: 'Discreet packaging' },
-  { value: '4.9/5', label: 'Customer feel' },
-];
-
 const whatsappNumber = '254742184483';
 const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent('Hi Aura Intimates, I need help with an order.')}`;
 
@@ -197,18 +190,6 @@ export default function Home() {
               className={`transition-all duration-300 ${i === heroIndex ? 'w-6 h-1.5 bg-cream' : 'w-1.5 h-1.5 bg-cream/40 rounded-full'}`}
               aria-label={`Go to slide ${i + 1}`}
             />
-          ))}
-        </div>
-      </section>
-
-      {/* ─── TRUST STRIP ─────────────────────── */}
-      <section className="max-w-7xl mx-auto px-4 -mt-10 md:-mt-12 relative z-20">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4">
-          {businessStats.map(stat => (
-            <div key={stat.label} className="rounded-3xl border border-blush/20 bg-cream/95 backdrop-blur-sm p-4 md:p-5 shadow-sm">
-              <p className="font-serif text-2xl md:text-3xl text-ink mb-1">{stat.value}</p>
-              <p className="text-[10px] tracking-[0.25em] uppercase font-sans text-ink/45">{stat.label}</p>
-            </div>
           ))}
         </div>
       </section>

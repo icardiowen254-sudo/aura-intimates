@@ -64,7 +64,7 @@ export default function ProductModal({ product, isOpen, onClose }) {
                     <AnimatePresence mode="wait">
                       <motion.img
                         key={selectedImage}
-                        src={`${import.meta.env.BASE_URL}${product.images[selectedImage].replace(/^\//, '')}`}
+                        src={product.images[selectedImage]}
                         alt={product.name}
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
@@ -83,7 +83,7 @@ export default function ProductModal({ product, isOpen, onClose }) {
                           onClick={() => setSelectedImage(i)}
                           className={`w-14 h-14 overflow-hidden flex-shrink-0 transition-all ${selectedImage === i ? 'ring-1 ring-ink' : 'opacity-50 hover:opacity-75'}`}
                         >
-                          <img src={`${import.meta.env.BASE_URL}${img.replace(/^\//, '')}`} alt="" className="w-full h-full object-cover" />
+                          <img src={img} alt="" className="w-full h-full object-cover" />
                         </button>
                       ))}
                     </div>

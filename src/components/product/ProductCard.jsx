@@ -31,7 +31,7 @@ export default function ProductCard({ product, index = 0 }) {
         <div className="relative overflow-hidden bg-champagne/40 aspect-[3/4] mb-4">
           {/* Main image */}
           <img
-            src={product.images[0]}
+            src={`${import.meta.env.BASE_URL}${product.images[0].replace(/^\//, '')}`}
             alt={product.name}
             loading="lazy"
             className={`absolute inset-0 w-full h-full object-cover transition-all duration-700 ${hovered && product.images[1] ? 'opacity-0 scale-105' : 'opacity-100 scale-100'}`}
@@ -39,7 +39,7 @@ export default function ProductCard({ product, index = 0 }) {
           {/* Hover image */}
           {product.images[1] && (
             <img
-              src={product.images[1]}
+              src={`${import.meta.env.BASE_URL}${product.images[1].replace(/^\//, '')}`}
               alt={`${product.name} alternate view`}
               loading="lazy"
               className={`absolute inset-0 w-full h-full object-cover transition-all duration-700 ${hovered ? 'opacity-100 scale-100' : 'opacity-0 scale-105'}`}

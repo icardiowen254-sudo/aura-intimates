@@ -46,18 +46,25 @@ export default function ProductModal({ product, isOpen, onClose }) {
           <div className="fixed inset-0 bg-ink/40 backdrop-blur-sm" />
         </Transition.Child>
 
-        <div className="fixed inset-0 z-10 overflow-y-auto flex items-center justify-center p-4">
+       <div className="fixed inset-0 z-10 overflow-y-auto flex items-start md:items-center justify-center p-2 md:p-4">
           <Transition.Child as={Fragment}
             enter="ease-[cubic-bezier(0.22,1,0.36,1)] duration-500" enterFrom="opacity-0 scale-95 translate-y-4" enterTo="opacity-100 scale-100 translate-y-0"
             leave="ease-in duration-200" leaveFrom="opacity-100 scale-100" leaveTo="opacity-0 scale-95"
           >
-            <Dialog.Panel className="relative w-full max-w-3xl bg-cream shadow-2xl overflow-hidden">
-              {/* Close */}
-<button onClick={onClose} className="absolute top-3 right-3 z-20 w-10 h-10 bg-ink text-cream flex items-center justify-center hover:bg-burgundy transition-colors shadow-lg" aria-label="Close">
-  <HiOutlineX className="w-5 h-5" />
-</button>
+        <Dialog.Panel className="relative w-full max-w-3xl bg-cream shadow-2xl my-2 md:my-0">
+  {/* Close bar — always visible at top on all screen sizes */}
+  <div className="flex items-center justify-between px-4 py-3 border-b border-ink/10 bg-cream sticky top-0 z-30">
+    <span className="text-xs tracking-[0.2em] uppercase font-sans text-ink/40">Quick View</span>
+    <button
+      onClick={onClose}
+      className="w-9 h-9 bg-ink text-cream flex items-center justify-center hover:bg-burgundy transition-colors"
+      aria-label="Close"
+    >
+      <HiOutlineX className="w-5 h-5" />
+    </button>
+  </div>
 
-              <div className="grid md:grid-cols-2">
+  <div className="grid md:grid-cols-2">
                 {/* Images */}
                 <div className="bg-champagne/30">
                   <div className="relative aspect-square">

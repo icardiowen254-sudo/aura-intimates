@@ -53,9 +53,9 @@ export default function ProductModal({ product, isOpen, onClose }) {
           >
             <Dialog.Panel className="relative w-full max-w-3xl bg-cream shadow-2xl overflow-hidden">
               {/* Close */}
-              <button onClick={onClose} className="absolute top-4 right-4 z-10 w-9 h-9 bg-cream/90 flex items-center justify-center hover:bg-white transition-colors" aria-label="Close">
-                <HiOutlineX className="w-4 h-4" />
-              </button>
+<button onClick={onClose} className="absolute top-3 right-3 z-20 w-10 h-10 bg-ink text-cream flex items-center justify-center hover:bg-burgundy transition-colors shadow-lg" aria-label="Close">
+  <HiOutlineX className="w-5 h-5" />
+</button>
 
               <div className="grid md:grid-cols-2">
                 {/* Images */}

@@ -14,8 +14,8 @@ export const products = [
     colors: ['blush', 'ivory', 'midnight'],
     colorHex: { blush: '#E8B4B8', ivory: '#FAF6F0', midnight: '#1A1614' },
     images: [
-      '/assets/bras/Brs1.jpg',
-      '/assets/bras/Brs2.jpg',
+      `${import.meta.env.BASE_URL}assets/bras/Brs1.jpg`,
+      `${import.meta.env.BASE_URL}assets/bras/Brs2.jpg`,
     ],
     description: 'Crafted from the softest modal-silk blend, this bralette offers cloud-like comfort with a barely-there feel. The delicate lace trim adds a touch of femininity without compromising on everyday wearability.',
     care: 'Hand wash cold. Lay flat to dry. Do not bleach.',
@@ -36,8 +36,8 @@ export const products = [
     colors: ['champagne', 'burgundy', 'blush'],
     colorHex: { champagne: '#F7E7CE', burgundy: '#6B2737', blush: '#E8B4B8' },
     images: [
-      '/assets/bras/Brs3.jpg',
-      '/assets/bras/Brs4.jpg',
+      `${import.meta.env.BASE_URL}assets/bras/Brs3.jpg`,
+      `${import.meta.env.BASE_URL}assets/bras/Brs4.jpg`,
     ],
     description: 'A masterpiece of French-inspired lingerie design. The Chantilly lace overlay and satin ribbon detailing create an elevated silhouette perfect for both everyday wear and special occasions.',
     care: 'Hand wash only. Air dry away from direct sunlight.',
@@ -58,8 +58,8 @@ export const products = [
     colors: ['nude', 'black', 'white'],
     colorHex: { nude: '#D4A895', black: '#1A1614', white: '#FFFFFF' },
     images: [
-      '/assets/bras/Brs5.jpg',
-      '/assets/bras/Brs6.jpg',
+      `${import.meta.env.BASE_URL}assets/bras/Brs5.jpg`,
+      `${import.meta.env.BASE_URL}assets/bras/Brs6.jpg`,
     ],
     description: 'The everyday essential reimagined. Ultra-smooth cups that disappear under clothing, featuring memory foam padding and a 4-way stretch fabric that moves with your body all day long.',
     care: 'Machine wash cold, gentle cycle. Hang dry.',
@@ -82,8 +82,8 @@ export const products = [
     colors: ['blush', 'ivory', 'sage', 'midnight'],
     colorHex: { blush: '#E8B4B8', ivory: '#FAF6F0', sage: '#9CAF88', midnight: '#1A1614' },
     images: [
-      '/assets/panties/PANTIE1.jpg',
-      '/assets/panties/PANTIE2.jpg',
+      `${import.meta.env.BASE_URL}assets/panties/PANTIE1.jpg`,
+      `${import.meta.env.BASE_URL}assets/panties/PANTIE2.jpg`,
     ],
     description: 'Luxurious TENCEL™ lyocell with a whisper-soft feel. The high-waist silhouette offers elegant coverage and a smoothing effect that celebrates every body shape.',
     care: 'Machine wash cold. Tumble dry low.',
@@ -104,8 +104,8 @@ export const products = [
     colors: ['burgundy', 'blush', 'black'],
     colorHex: { burgundy: '#6B2737', blush: '#E8B4B8', black: '#1A1614' },
     images: [
-      '/assets/panties/PANTIE3.jpg',
-      '/assets/panties/PANTIE4.jpg',
+      `${import.meta.env.BASE_URL}assets/panties/PANTIE3.jpg`,
+      `${import.meta.env.BASE_URL}assets/panties/PANTIE4.jpg`,
     ],
     description: 'Delicate floral lace meets second-skin comfort. The minimal cotton gusset and barely-there silhouette make this the perfect companion for all-day confidence.',
     care: 'Hand wash cold. Air dry.',
@@ -126,8 +126,8 @@ export const products = [
     colors: ['champagne', 'dusty-rose', 'olive'],
     colorHex: { champagne: '#F7E7CE', 'dusty-rose': '#C4808A', olive: '#8A8A6B' },
     images: [
-      '/assets/panties/PANTIE5.jpg',
-      '/assets/panties/PANTIE6.jpg',
+      `${import.meta.env.BASE_URL}assets/panties/PANTIE5.jpg`,
+      `${import.meta.env.BASE_URL}assets/panties/PANTIE6.jpg`,
     ],
     description: 'Designed with curves in mind. Wide, comfortable waistband and full seat coverage in our signature stretch-cotton blend that never rolls, bunches, or digs in.',
     care: 'Machine wash cold. Tumble dry low.',
@@ -150,8 +150,8 @@ export const products = [
     colors: ['midnight', 'burgundy'],
     colorHex: { midnight: '#1A1614', burgundy: '#6B2737' },
     images: [
-      '/assets/sets/SET1.jpg',
-      '/assets/sets/SET2.jpg',
+      `${import.meta.env.BASE_URL}assets/sets/SET1.jpg`,
+      `${import.meta.env.BASE_URL}assets/sets/SET2.jpg`,
     ],
     description: 'A complete luxury set featuring a lace balconette bra and matching high-waist brief. The intricate floral lace overlay and satin trims make this an heirloom-quality piece for intimate occasions.',
     care: 'Hand wash cold. Air dry.',
@@ -172,8 +172,8 @@ export const products = [
     colors: ['champagne', 'blush'],
     colorHex: { champagne: '#F7E7CE', blush: '#E8B4B8' },
     images: [
-      '/assets/sets/SET3.jpg',
-      '/assets/sets/SET4.jpg',
+      `${import.meta.env.BASE_URL}assets/sets/SET3.jpg`,
+      `${import.meta.env.BASE_URL}assets/sets/SET4.jpg`,
     ],
     description: 'The epitome of understated luxury. Silk-satin construction with delicate embroidered details. The matching bra and brief set comes beautifully packaged — perfect as a gift.',
     care: 'Dry clean recommended. Hand wash cold.',
@@ -196,8 +196,8 @@ export const products = [
     colors: ['ivory', 'blush', 'black'],
     colorHex: { ivory: '#FAF6F0', blush: '#E8B4B8', black: '#1A1614' },
     images: [
-      '/assets/bodysuits/BODY1.jpg',
-      '/assets/bodysuits/BODY2.jpg',
+      `${import.meta.env.BASE_URL}assets/bodysuits/BODY1.jpg`,
+      `${import.meta.env.BASE_URL}assets/bodysuits/BODY2.jpg`,
     ],
     description: 'A versatile beauty — wear it as lingerie or style it with high-waisted trousers for a night out. The all-over lace design with snap closure offers both allure and practicality.',
     care: 'Hand wash cold. Lay flat to dry.',
@@ -218,8 +218,8 @@ export const products = [
     colors: ['champagne', 'blush', 'slate'],
     colorHex: { champagne: '#F7E7CE', blush: '#E8B4B8', slate: '#8090A0' },
     images: [
-      '/assets/bodysuits/BODY3.jpg',
-      '/assets/bodysuits/BODY4.jpg',
+      `${import.meta.env.BASE_URL}assets/bodysuits/BODY3.jpg`,
+      `${import.meta.env.BASE_URL}assets/bodysuits/BODY4.jpg`,
     ],
     description: 'Liquid-smooth satin construction with adjustable straps and a deep V-neckline. The snap gusset and smooth finish make this bodysuit ideal for wearing as innerwear or outerwear.',
     care: 'Machine wash cold, delicate. Hang dry.',
@@ -242,8 +242,8 @@ export const products = [
     colors: ['blush', 'ivory', 'burgundy'],
     colorHex: { blush: '#E8B4B8', ivory: '#FAF6F0', burgundy: '#6B2737' },
     images: [
-      '/assets/babydolls/BB1.jpg',
-      '/assets/babydolls/BB2.jpg',
+      `${import.meta.env.BASE_URL}assets/babydolls/BB1.jpg`,
+      `${import.meta.env.BASE_URL}assets/babydolls/BB2.jpg`,
     ],
     description: 'Sheer mesh with strategically placed lace panels. The flowing silhouette flatters every body type, cinching gently at the waist before flowing to a soft hem. Includes matching brief.',
     care: 'Hand wash cold. Air dry.',
@@ -264,8 +264,8 @@ export const products = [
     colors: ['champagne', 'blush', 'ivory'],
     colorHex: { champagne: '#F7E7CE', blush: '#E8B4B8', ivory: '#FAF6F0' },
     images: [
-      '/assets/robes/ROBE1.jpg',
-      '/assets/robes/ROBE2.jpg',
+      `${import.meta.env.BASE_URL}assets/robes/ROBE1.jpg`,
+      `${import.meta.env.BASE_URL}assets/robes/ROBE2.jpg`,
     ],
     description: 'Wrap yourself in pure indulgence. This floor-length robe is crafted from our signature modal-satin blend that drapes beautifully and feels impossibly soft against the skin.',
     care: 'Machine wash cold, gentle. Tumble dry low.',
@@ -286,8 +286,8 @@ export const products = [
     colors: ['blush', 'ivory', 'sage'],
     colorHex: { blush: '#E8B4B8', ivory: '#FAF6F0', sage: '#9CAF88' },
     images: [
-      '/assets/panties/PANTIE9.jpg',
-      '/assets/panties/PANTIE10.jpg',
+      `${import.meta.env.BASE_URL}assets/panties/PANTIE9.jpg`,
+      `${import.meta.env.BASE_URL}assets/panties/PANTIE10.jpg`,
     ],
     description: 'Soft stretch lace and lightweight mesh combine for a modern bikini cut with all-day comfort.',
     care: 'Machine wash cold. Tumble dry low.',
@@ -308,8 +308,8 @@ export const products = [
     colors: ['midnight', 'burgundy', 'ivory'],
     colorHex: { midnight: '#1A1614', burgundy: '#6B2737', ivory: '#FAF6F0' },
     images: [
-      '/assets/sets/SET7.jpg',
-      '/assets/sets/SET8.jpg',
+      `${import.meta.env.BASE_URL}assets/sets/SET7.jpg`,
+      `${import.meta.env.BASE_URL}assets/sets/SET8.jpg`,
     ],
     description: 'A dramatic lace set with an elegant balconette bra and coordinating full-coverage brief for a polished evening look.',
     care: 'Hand wash cold. Lay flat to dry.',
@@ -330,8 +330,8 @@ export const products = [
     colors: ['blush', 'champagne', 'rose'],
     colorHex: { blush: '#E8B4B8', champagne: '#F7E7CE', rose: '#DDA0A1' },
     images: [
-      '/assets/sets/SET9.jpg',
-      '/assets/sets/SET10.jpg',
+      `${import.meta.env.BASE_URL}assets/sets/SET9.jpg`,
+      `${import.meta.env.BASE_URL}assets/sets/SET10.jpg`,
     ],
     description: 'Soft floral mesh with satin edges creates a matching bra and brief set that feels romantic and effortless.',
     care: 'Machine wash cold. Hang dry.',
@@ -352,8 +352,8 @@ export const products = [
     colors: ['ivory', 'blush'],
     colorHex: { ivory: '#FAF6F0', blush: '#E8B4B8' },
     images: [
-      '/assets/bodysuits/BODY5.jpg',
-      '/assets/bodysuits/BODY6.jpg',
+      `${import.meta.env.BASE_URL}assets/bodysuits/BODY5.jpg`,
+      `${import.meta.env.BASE_URL}assets/bodysuits/BODY6.jpg`,
     ],
     description: 'A sleek camisole-style bodysuit edged in lace for a flattering silhouette under jackets or on its own.',
     care: 'Hand wash cold. Lay flat to dry.',
@@ -374,8 +374,8 @@ export const products = [
     colors: ['black', 'plum'],
     colorHex: { black: '#1A1614', plum: '#6C4A66' },
     images: [
-      '/assets/bodysuits/BODY7.jpg',
-      '/assets/bodysuits/BODY8.jpg',
+      `${import.meta.env.BASE_URL}assets/bodysuits/BODY7.jpg`,
+      `${import.meta.env.BASE_URL}assets/bodysuits/BODY8.jpg`,
     ],
     description: 'Soft sculpting fabric and a plunging neckline make this bodysuit a versatile foundation piece for day or night.',
     care: 'Machine wash cold, delicate. Hang dry.',
@@ -396,8 +396,8 @@ export const products = [
     colors: ['midnight', 'mauve'],
     colorHex: { midnight: '#1A1614', mauve: '#A97C9F' },
     images: [
-      '/assets/bodysuits/BODY9.jpg',
-      '/assets/bodysuits/BODY10.jpg',
+      `${import.meta.env.BASE_URL}assets/bodysuits/BODY9.jpg`,
+      `${import.meta.env.BASE_URL}assets/bodysuits/BODY10.jpg`,
     ],
     description: 'Rich velvet-inspired knit with a smooth fit and supportive straps for a luxe, everyday layering piece.',
     care: 'Machine wash cold. Tumble dry low.',
@@ -418,8 +418,8 @@ export const products = [
     colors: ['midnight', 'blush'],
     colorHex: { midnight: '#1A1614', blush: '#E8B4B8' },
     images: [
-      '/assets/babydolls/BB3.jpg',
-      '/assets/babydolls/BB4.jpg',
+      `${import.meta.env.BASE_URL}assets/babydolls/BB3.jpg`,
+      `${import.meta.env.BASE_URL}assets/babydolls/BB4.jpg`,
     ],
     description: 'Soft tulle and delicate embroidery combine for a dreamy babydoll with a floaty, flattering fit.',
     care: 'Hand wash cold. Air dry.',
@@ -440,8 +440,8 @@ export const products = [
     colors: ['blush', 'ivory', 'rose'],
     colorHex: { blush: '#E8B4B8', ivory: '#FAF6F0', rose: '#DDA0A1' },
     images: [
-      '/assets/babydolls/BB5.jpg',
-      '/assets/babydolls/BB6.jpg',
+      `${import.meta.env.BASE_URL}assets/babydolls/BB5.jpg`,
+      `${import.meta.env.BASE_URL}assets/babydolls/BB6.jpg`,
     ],
     description: 'A soft lace overlay with gentle ruching at the bust creates a feminine babydoll that feels light and romantic.',
     care: 'Hand wash cold. Air dry.',
@@ -462,8 +462,8 @@ export const products = [
     colors: ['champagne', 'blush'],
     colorHex: { champagne: '#F7E7CE', blush: '#E8B4B8' },
     images: [
-      '/assets/babydolls/BB7.jpg',
-      '/assets/babydolls/BB8.jpg',
+      `${import.meta.env.BASE_URL}assets/babydolls/BB7.jpg`,
+      `${import.meta.env.BASE_URL}assets/babydolls/BB8.jpg`,
     ],
     description: 'Satin-trimmed mesh layers over a soft lining for a luxurious babydoll that moves beautifully with each step.',
     care: 'Machine wash cold. Lay flat to dry.',
@@ -484,8 +484,8 @@ export const products = [
     colors: ['midnight', 'gold'],
     colorHex: { midnight: '#1A1614', gold: '#D4AF37' },
     images: [
-      '/assets/babydolls/BB9.jpg',
-      '/assets/babydolls/BB10.jpg',
+      `${import.meta.env.BASE_URL}assets/babydolls/BB9.jpg`,
+      `${import.meta.env.BASE_URL}assets/babydolls/BB10.jpg`,
     ],
     description: 'A smooth satin finish with a soft stretch body and flattering empire waist for a polished nighttime look.',
     care: 'Hand wash cold. Air dry.',
@@ -506,8 +506,8 @@ export const products = [
     colors: ['blush', 'ivory'],
     colorHex: { blush: '#E8B4B8', ivory: '#FAF6F0' },
     images: [
-      '/assets/robes/ROBE5.jpg',
-      '/assets/robes/ROBE6.jpg',
+      `${import.meta.env.BASE_URL}assets/robes/ROBE5.jpg`,
+      `${import.meta.env.BASE_URL}assets/robes/ROBE6.jpg`,
     ],
     description: 'A lightweight satin robe with a gentle drape and soft self-tie belt for effortless luxury.',
     care: 'Machine wash cold, gentle. Tumble dry low.',
@@ -528,8 +528,8 @@ export const products = [
     colors: ['midnight', 'burgundy'],
     colorHex: { midnight: '#1A1614', burgundy: '#6B2737' },
     images: [
-      '/assets/robes/ROBE7.jpg',
-      '/assets/robes/ROBE8.jpg',
+      `${import.meta.env.BASE_URL}assets/robes/ROBE7.jpg`,
+      `${import.meta.env.BASE_URL}assets/robes/ROBE8.jpg`,
     ],
     description: 'A longline robe with plush trim and roomy sleeves, finished in a rich color palette for luxe lounging.',
     care: 'Dry clean recommended. Hand wash cold.',
@@ -550,8 +550,8 @@ export const products = [
     colors: ['champagne', 'ivory'],
     colorHex: { champagne: '#F7E7CE', ivory: '#FAF6F0' },
     images: [
-      '/assets/robes/ROBE9.jpg',
-      '/assets/robes/ROBE10.jpg',
+      `${import.meta.env.BASE_URL}assets/robes/ROBE9.jpg`,
+      `${import.meta.env.BASE_URL}assets/robes/ROBE10.jpg`,
     ],
     description: 'A luminous robe with delicate lace inserts and a softly structured shape for refined at-home styling.',
     care: 'Hand wash cold. Lay flat to dry.',
@@ -574,8 +574,8 @@ export const products = [
     colors: ['white', 'black', 'navy'],
     colorHex: { white: '#FFFFFF', black: '#1A1614', navy: '#1B2A4A' },
     images: [
-      '/assets/shackets/SH1.jpg',
-      '/assets/shackets/SH2.jpg',
+      `${import.meta.env.BASE_URL}assets/shackets/SH1.jpg`,
+      `${import.meta.env.BASE_URL}assets/shackets/SH2.jpg`,
     ],
     description: 'Timeless classic shacket in premium cotton. Perfect for layering or wearing standalone. Versatile style for any occasion.',
     care: 'Machine wash cold. Tumble dry low.',
@@ -596,8 +596,8 @@ export const products = [
     colors: ['charcoal', 'grey', 'beige'],
     colorHex: { charcoal: '#4A4A4A', grey: '#8A8A8A', beige: '#E8DCC8' },
     images: [
-      '/assets/shackets/SH3.jpg',
-      '/assets/shackets/SH4.jpg',
+      `${import.meta.env.BASE_URL}assets/shackets/SH3.jpg`,
+      `${import.meta.env.BASE_URL}assets/shackets/SH4.jpg`,
     ],
     description: 'Effortlessly cool relaxed fit shacket. The perfect balance of comfort and style. Great for casual everyday wear.',
     care: 'Machine wash cold. Lay flat to dry.',
@@ -618,8 +618,8 @@ export const products = [
     colors: ['charcoal', 'burgundy', 'navy'],
     colorHex: { charcoal: '#4A4A4A', burgundy: '#6B2737', navy: '#1B2A4A' },
     images: [
-      '/assets/shackets/SH5.jpg',
-      '/assets/shackets/SH6.jpg',
+      `${import.meta.env.BASE_URL}assets/shackets/SH5.jpg`,
+      `${import.meta.env.BASE_URL}assets/shackets/SH6.jpg`,
     ],
     description: 'Luxurious wool blend shacket offering superior warmth and sophistication. The perfect statement piece for elevated casual style.',
     care: 'Dry clean recommended. Hand wash cold.',
@@ -640,8 +640,8 @@ export const products = [
     colors: ['indigo', 'black', 'light-wash'],
     colorHex: { indigo: '#4B5B8F', black: '#1A1614', 'light-wash': '#9DABB5' },
     images: [
-      '/assets/shackets/SH7.jpg',
-      '/assets/shackets/SH8.jpg',
+      `${import.meta.env.BASE_URL}assets/shackets/SH7.jpg`,
+      `${import.meta.env.BASE_URL}assets/shackets/SH8.jpg`,
     ],
     description: 'Edgy urban denim shacket with a modern cut. Perfect for creating bold outfits. Durable construction for everyday wear.',
     care: 'Machine wash cold. Hang dry.',
@@ -662,8 +662,8 @@ export const products = [
     colors: ['cream', 'sage', 'slate'],
     colorHex: { cream: '#F5F1EB', sage: '#9CAF88', slate: '#8090A0' },
     images: [
-      '/assets/shackets/SH9.jpg',
-      '/assets/shackets/SH10.jpg',
+      `${import.meta.env.BASE_URL}assets/shackets/SH9.jpg`,
+      `${import.meta.env.BASE_URL}assets/shackets/SH10.jpg`,
     ],
     description: 'Breathable linen shacket perfect for warm weather layering. Light, airy feel with timeless summer style.',
     care: 'Machine wash cold. Tumble dry low.',
@@ -684,8 +684,8 @@ export const products = [
     colors: ['slate', 'black'],
     colorHex: { slate: '#8090A0', black: '#1A1614' },
     images: [
-      '/assets/trunks/t2.jpg',
-      '/assets/trunks/t3.jpg' 
+      `${import.meta.env.BASE_URL}assets/trunks/t2.jpg`,
+      `${import.meta.env.BASE_URL}assets/trunks/t3.jpg` 
     ],
     description: 'Breathable performance fabric designed for active lifestyles.',
     care: 'Machine wash cold. Hang dry.',
@@ -706,8 +706,8 @@ export const products = [
     colors: ['olive', 'charcoal'],
     colorHex: { olive: '#8A8A6B', charcoal: '#4A4A4A' },
     images: [
-      '/assets/trunks/t3.jpg',
-      '/assets/trunks/t10.jpg'
+      `${import.meta.env.BASE_URL}assets/trunks/t3.jpg`,
+      `${import.meta.env.BASE_URL}assets/trunks/t10.jpg`
     ],
     description: 'Naturally soft bamboo fibers with moisture-control technology.',
     care: 'Machine wash cold. Line dry.',
@@ -728,8 +728,8 @@ export const products = [
     colors: ['midnight', 'ivory'],
     colorHex: { midnight: '#1A1614', ivory: '#FAF6F0' },
     images: [
-      '/assets/trunks/t4.jpg',
-      '/assets/trunks/t3.jpg'
+      `${import.meta.env.BASE_URL}assets/trunks/t4.jpg`,
+      `${import.meta.env.BASE_URL}assets/trunks/t3.jpg`
     ],
     description: 'Ultra-soft modal construction with luxury finishing details.',
     care: 'Machine wash cold. Lay flat to dry.',
@@ -750,8 +750,8 @@ export const products = [
     colors: ['charcoal', 'navy'],
     colorHex: { charcoal: '#4A4A4A', navy: '#1B2A4A' },
     images: [
-      '/assets/trunks/t5.jpg',
-      '/assets/trunks/t4.jpg'
+      `${import.meta.env.BASE_URL}assets/trunks/t5.jpg`,
+      `${import.meta.env.BASE_URL}assets/trunks/t4.jpg`
     ],
     description: 'Strategic mesh zones provide airflow during workouts and busy days.',
     care: 'Machine wash cold. Tumble dry low.',
@@ -772,8 +772,8 @@ export const products = [
     colors: ['white', 'navy'],
     colorHex: { white: '#FFFFFF', navy: '#1B2A4A' },
     images: [
-      '/assets/trunks/t6.jpg',
-      '/assets/trunks/t5.jpg'
+      `${import.meta.env.BASE_URL}assets/trunks/t6.jpg`,
+      `${import.meta.env.BASE_URL}assets/trunks/t5.jpg`
     ],
     description: 'Classic cotton comfort with a refined modern fit.',
     care: 'Machine wash warm. Tumble dry medium.',
@@ -794,8 +794,8 @@ export const products = [
     colors: ['slate', 'white'],
     colorHex: { slate: '#8090A0', white: '#FFFFFF' },
     images: [
-      '/assets/trunks/t7.jpg',
-      '/assets/trunks/t6.jpg'
+      `${import.meta.env.BASE_URL}assets/trunks/t7.jpg`,
+      `${import.meta.env.BASE_URL}assets/trunks/t6.jpg`
     ],
     description: 'Lightweight cooling fabric keeps you comfortable all day.',
     care: 'Machine wash cold. Hang dry.',
@@ -816,8 +816,8 @@ export const products = [
     colors: ['black', 'charcoal'],
     colorHex: { black: '#1A1614', charcoal: '#4A4A4A' },
     images: [
-      '/assets/trunks/t8.jpg',
-      '/assets/trunks/t7.jpg'
+      `${import.meta.env.BASE_URL}assets/trunks/t8.jpg`,
+      `${import.meta.env.BASE_URL}assets/trunks/t7.jpg`
     ],
     description: 'Athletic support with targeted compression zones and premium stretch.',
     care: 'Machine wash cold. Do not bleach.',
@@ -838,8 +838,8 @@ export const products = [
     colors: ['ivory', 'midnight'],
     colorHex: { ivory: '#FAF6F0', midnight: '#1A1614' },
     images: [
-      '/assets/trunks/t9.jpg',
-      '/assets/trunks/t10.jpg'
+      `${import.meta.env.BASE_URL}assets/trunks/t9.jpg`,
+      `${import.meta.env.BASE_URL}assets/trunks/t10.jpg`
     ],
     description: 'Luxury silk-blend fabric offering exceptional softness and elegance.',
     care: 'Hand wash cold.',
@@ -881,8 +881,8 @@ export const products = [
     colors: ['white', 'black', 'grey'],
     colorHex: { white: '#FFFFFF', black: '#1A1614', grey: '#8A8A8A' },
     images: [
-      '/assets/undershirts/US1.jpg',
-      '/assets/undershirts/US2.jpg',
+      `${import.meta.env.BASE_URL}assets/undershirts/US1.jpg`,
+      `${import.meta.env.BASE_URL}assets/undershirts/US2.jpg`,
     ],
     description: 'Pure comfort in premium organic cotton. Soft, breathable, and gentle on skin. The perfect everyday undershirt for all-day wear.',
     care: 'Machine wash cold. Tumble dry low.',
@@ -903,8 +903,8 @@ export const products = [
     colors: ['white', 'navy', 'charcoal'],
     colorHex: { white: '#FFFFFF', navy: '#1B2A4A', charcoal: '#4A4A4A' },
     images: [
-      '/assets/undershirts/US3.jpg',
-      '/assets/undershirts/US4.jpg',
+      `${import.meta.env.BASE_URL}assets/undershirts/US3.jpg`,
+      `${import.meta.env.BASE_URL}assets/undershirts/US4.jpg`,
     ],
     description: 'Breathable mesh construction keeps you cool and fresh throughout the day. Moisture-wicking technology for active lifestyles.',
     care: 'Machine wash cold. Hang dry.',
@@ -925,8 +925,8 @@ export const products = [
     colors: ['ivory', 'champagne', 'slate'],
     colorHex: { ivory: '#FAF6F0', champagne: '#F7E7CE', slate: '#8090A0' },
     images: [
-      '/assets/undershirts/US5.jpg',
-      '/assets/undershirts/US6.jpg',
+      `${import.meta.env.BASE_URL}assets/undershirts/US5.jpg`,
+      `${import.meta.env.BASE_URL}assets/undershirts/US6.jpg`,
     ],
     description: 'Sumptuous modal fabric delivers an incredibly soft touch. Naturally hypoallergenic and temperature-regulating for ultimate comfort.',
     care: 'Machine wash cold. Lay flat to dry.',
@@ -947,8 +947,8 @@ export const products = [
     colors: ['black', 'charcoal', 'navy'],
     colorHex: { black: '#1A1614', charcoal: '#4A4A4A', navy: '#1B2A4A' },
     images: [
-      '/assets/undershirts/US7.jpg',
-      '/assets/undershirts/US8.jpg',
+      `${import.meta.env.BASE_URL}assets/undershirts/US7.jpg`,
+      `${import.meta.env.BASE_URL}assets/undershirts/US8.jpg`,
     ],
     description: 'Engineered for athletes. Advanced moisture-wicking and quick-dry technology. Anti-bacterial finish keeps you fresh during intense activity.',
     care: 'Machine wash cold. Tumble dry low.',
@@ -969,8 +969,8 @@ export const products = [
     colors: ['white', 'grey', 'black'],
     colorHex: { white: '#FFFFFF', grey: '#8A8A8A', black: '#1A1614' },
     images: [
-      '/assets/undershirts/US9.jpg',
-      '/assets/undershirts/US10.jpg',
+      `${import.meta.env.BASE_URL}assets/undershirts/US9.jpg`,
+      `${import.meta.env.BASE_URL}assets/undershirts/US10.jpg`,
     ],
     description: 'Seamlessly constructed for invisible comfort under any shirt. The smooth finish prevents chafing and works perfectly with layering.',
     care: 'Machine wash cold. Hang dry.',
@@ -993,8 +993,8 @@ export const products = [
     colors: ['navy', 'black', 'heather'],
     colorHex: { navy: '#1B2A4A', black: '#1A1614', heather: '#BEBEBE' },
     images: [
-      '/assets/boxers/b1.jpg',
-      '/assets/boxers/b2.jpg',
+      `${import.meta.env.BASE_URL}assets/boxers/b1.jpg`,
+      `${import.meta.env.BASE_URL}assets/boxers/b2.jpg`,
     ],
     description: 'Soft modal boxer with a clean, low-rise fit — perfect for daily wear.',
     care: 'Machine wash cold. Tumble dry low.',
@@ -1015,8 +1015,8 @@ export const products = [
     colors: ['charcoal', 'olive'],
     colorHex: { charcoal: '#4A4A4A', olive: '#8A8A6B' },
     images: [
-      '/assets/boxers/b3.jpg',
-      '/assets/boxers/b4.jpg',
+      `${import.meta.env.BASE_URL}assets/boxers/b3.jpg`,
+      `${import.meta.env.BASE_URL}assets/boxers/b4.jpg`,
     ],
     description: 'Breathable mesh panels and a supportive waistband built for movement.',
     care: 'Machine wash cold. Line dry.',
@@ -1037,8 +1037,8 @@ export const products = [
     colors: ['white', 'navy', 'sand'],
     colorHex: { white: '#FFFFFF', navy: '#1B2A4A', sand: '#DDD1B4' },
     images: [
-      '/assets/boxers/b5.jpg',
-      '/assets/boxers/b6.jpg',
+      `${import.meta.env.BASE_URL}assets/boxers/b5.jpg`,
+      `${import.meta.env.BASE_URL}assets/boxers/b6.jpg`,
     ],
     description: 'GOTS-certified organic cotton for a breathable, everyday staple.',
     care: 'Machine wash cold. Tumble dry low.',
@@ -1059,8 +1059,8 @@ export const products = [
     colors: ['black', 'midnight'],
     colorHex: { black: '#1A1614', midnight: '#1A1614' },
     images: [
-      '/assets/boxers/b7.jpg',
-      '/assets/boxers/b8.jpg',
+      `${import.meta.env.BASE_URL}assets/boxers/b7.jpg`,
+      `${import.meta.env.BASE_URL}assets/boxers/b8.jpg`,
     ],
     description: 'Tagless, seamless construction for zero irritation under clothing.',
     care: 'Machine wash cold. Lay flat to dry.',
@@ -1081,8 +1081,8 @@ export const products = [
     colors: ['slate', 'white'],
     colorHex: { slate: '#8090A0', white: '#FFFFFF' },
     images: [
-      '/assets/boxers/b9.jpg',
-      '/assets/boxers/b10.jpg',
+      `${import.meta.env.BASE_URL}assets/boxers/b9.jpg`,
+      `${import.meta.env.BASE_URL}assets/boxers/b10.jpg`,
     ],
     description: 'Bamboo-derived fibers for natural cooling and odor resistance.',
     care: 'Machine wash cold. Hang dry.',
@@ -1103,8 +1103,8 @@ export const products = [
     colors: ['black', 'charcoal'],
     colorHex: { black: '#1A1614', charcoal: '#4A4A4A' },
     images: [
-      '/assets/boxers/b11.jpg',
-      '/assets/boxers/b12.jpg',
+      `${import.meta.env.BASE_URL}assets/boxers/b11.jpg`,
+      `${import.meta.env.BASE_URL}assets/boxers/b12.jpg`,
     ],
     description: '4-way stretch fabric engineered for sports and active days.',
     care: 'Machine wash cold. Tumble dry low.',
@@ -1125,8 +1125,8 @@ export const products = [
     colors: ['white', 'navy', 'black'],
     colorHex: { white: '#FFFFFF', navy: '#1B2A4A', black: '#1A1614' },
     images: [
-      '/assets/boxers/b13.jpg',
-      '/assets/boxers/b14.jpg',
+      `${import.meta.env.BASE_URL}assets/boxers/b13.jpg`,
+      `${import.meta.env.BASE_URL}assets/boxers/b14.jpg`,
     ],
     description: 'Durable cotton with a classic fit — an affordable staple for every drawer.',
     care: 'Machine wash warm. Tumble dry medium.',
@@ -1147,8 +1147,8 @@ export const products = [
     colors: ['midnight', 'ivory'],
     colorHex: { midnight: '#1A1614', ivory: '#FAF6F0' },
     images: [
-      '/assets/boxers/b15.jpg',
-      '/assets/boxers/b16.jpg',
+      `${import.meta.env.BASE_URL}assets/boxers/b15.jpg`,
+      `${import.meta.env.BASE_URL}assets/boxers/b16.jpg`,
     ],
     description: 'Silky-smooth micro modal for next-level softness and fit.',
     care: 'Machine wash cold. Lay flat to dry.',
@@ -1169,8 +1169,8 @@ export const products = [
     colors: ['black', 'charcoal'],
     colorHex: { black: '#1A1614', charcoal: '#4A4A4A' },
     images: [
-      '/assets/boxers/b17.jpg',
-      '/assets/boxers/b18.jpg',
+      `${import.meta.env.BASE_URL}assets/boxers/b17.jpg`,
+      `${import.meta.env.BASE_URL}assets/boxers/b18.jpg`,
     ],
     description: 'Engineered compression zones for support during high-intensity training.',
     care: 'Machine wash cold. Do not bleach. Line dry.',
@@ -1191,8 +1191,8 @@ export const products = [
     colors: ['ivory', 'midnight'],
     colorHex: { ivory: '#FAF6F0', midnight: '#1A1614' },
     images: [
-      '/assets/boxers/b19.jpg',
-      '/assets/boxers/b20.jpg',
+      `${import.meta.env.BASE_URL}assets/boxers/b19.jpg`,
+      `${import.meta.env.BASE_URL}assets/boxers/b20.jpg`,
     ],
     description: 'A silk-blend brief with luxurious drape and a smooth finish for special occasions.',
     care: 'Hand wash cold. Lay flat to dry.',
@@ -1215,8 +1215,8 @@ export const products = [
     colors: ['blush', 'ivory', 'burgundy'],
     colorHex: { blush: '#E8B4B8', ivory: '#FAF6F0', burgundy: '#6B2737' },
     images: [
-      '/assets/bras/Brs7.jpg',
-      '/assets/bras/Brs8.jpg',
+      `${import.meta.env.BASE_URL}assets/bras/Brs7.jpg`,
+      `${import.meta.env.BASE_URL}assets/bras/Brs8.jpg`,
     ],
     description: 'Engineered for fuller busts with zero compromise on luxury. Wide-set straps, reinforced underwire, and a 6-column hook closure provide exceptional support while the delicate lace overlay keeps things beautiful.',
     care: 'Hand wash cold. Lay flat to dry.',
@@ -1237,8 +1237,8 @@ export const products = [
     colors: ['blush', 'champagne', 'midnight', 'burgundy'],
     colorHex: { blush: '#E8B4B8', champagne: '#F7E7CE', midnight: '#1A1614', burgundy: '#6B2737' },
     images: [
-      '/assets/panties/PANTIE7.jpg',
-      '/assets/panties/PANTIE8.jpg',
+      `${import.meta.env.BASE_URL}assets/panties/PANTIE7.jpg`,
+      `${import.meta.env.BASE_URL}assets/panties/PANTIE8.jpg`,
     ],
     description: 'A high-cut leg opening elongates and flatters, while the full seat coverage provides elegant comfort. The premium stretch-lace waistband sits smoothly without pinching.',
     care: 'Machine wash cold, gentle. Hang dry.',
@@ -1259,8 +1259,8 @@ export const products = [
     colors: ['ivory', 'blush', 'champagne'],
     colorHex: { ivory: '#FAF6F0', blush: '#E8B4B8', champagne: '#F7E7CE' },
     images: [
-      '/assets/robes/ROBE3.jpg',
-      '/assets/robes/ROBE4.jpg',
+      `${import.meta.env.BASE_URL}assets/robes/ROBE3.jpg`,
+      `${import.meta.env.BASE_URL}assets/robes/ROBE4.jpg`,
     ],
     description: 'An all-sizes luxury statement. The wide-sleeve kimono silhouette drapes beautifully over every curve. Rich jacquard weave with hand-embroidered floral details at the cuffs.',
     care: 'Dry clean recommended.',
@@ -1281,8 +1281,8 @@ export const products = [
     colors: ['burgundy', 'midnight'],
     colorHex: { burgundy: '#6B2737', midnight: '#1A1614' },
     images: [
-      '/assets/sets/SET5.jpg',
-      '/assets/sets/SET6.jpg',
+      `${import.meta.env.BASE_URL}assets/sets/SET5.jpg`,
+      `${import.meta.env.BASE_URL}assets/sets/SET6.jpg`,
     ],
     description: 'Our most celebrated curve-inclusive set. The plunge bra with underwire support pairs with a high-waist brief featuring all-over floral lace. Designed specifically for sizes 1X–4X.',
     care: 'Hand wash cold. Air dry.',
@@ -1303,8 +1303,8 @@ export const products = [
     colors: ['charcoal', 'navy', 'ivory'],
     colorHex: { charcoal: '#4A4A4A', navy: '#1B2A4A', ivory: '#FAF6F0', red: '#FF0000' },
     images: [
-      '/assets/socks/S1.jpg',
-      '/assets/socks/S2.jpg',
+      `${import.meta.env.BASE_URL}assets/socks/S1.jpg`,
+      `${import.meta.env.BASE_URL}assets/socks/S2.jpg`,
     ],
     description: "wool blended with modal for the softest sock you'll ever wear. Temperature-regulating, odor-resistant, and beautifully packaged as a gift.",
     care: 'Machine wash cold, gentle. Lay flat to dry.',
@@ -1325,8 +1325,8 @@ export const products = [
     colors: ['charcoal', 'navy', 'ivory'],
     colorHex: {  white: '#FAF6F0' },
     images: [
-       '/assets/socks/S3.jpg',
-       '/assets/socks/S4.jpg',
+       `${import.meta.env.BASE_URL}assets/socks/S3.jpg`,
+       `${import.meta.env.BASE_URL}assets/socks/S4.jpg`,
     ],
     description: "  Temperature-regulating, odor-resistant, and beautifully packaged as a gift.",
     care: 'Machine wash cold, gentle. Lay flat to dry.',
@@ -1347,8 +1347,8 @@ export const products = [
     colors: ['charcoal', 'navy', 'ivory'],
     colorHex: { charcoal: '#4A4A4A', ivory: '#FAF6F0' },
     images: [
-      '/assets/socks/S5.jpg',
-      '/assets/socks/S6.jpg',
+      `${import.meta.env.BASE_URL}assets/socks/S5.jpg`,
+      `${import.meta.env.BASE_URL}assets/socks/S6.jpg`,
     ],
     description: ": Added to provide elasticity, durability, and quick-drying capabilities.",
     care: 'Machine wash cold, gentle. Lay flat to dry.',
@@ -1369,8 +1369,8 @@ export const products = [
     colors: ['charcoal', 'navy', 'ivory'],
     colorHex: { white: '#FAF6F0' },
     images: [
-      '/assets/socks/S7.jpg',
-      '/assets/socks/S8.jpg',
+      `${import.meta.env.BASE_URL}assets/socks/S7.jpg`,
+      `${import.meta.env.BASE_URL}assets/socks/S8.jpg`,
     ],
     description: "Naturally regulates heat, wicks moisture, and cushions the foot.",
     care: 'Machine wash cold, gentle. Lay flat to dry.',
@@ -1391,8 +1391,8 @@ export const products = [
     colors: ['charcoal', 'navy', 'ivory'],
     colorHex: { charcoal: '#4A4A4A', navy: '#1B2A4A', ivory: '#FAF6F0' },
     images: [
-      '/assets/socks/S9.jpg',
-      '/assets/socks/S10.jpg',
+      `${import.meta.env.BASE_URL}assets/socks/S9.jpg`,
+      `${import.meta.env.BASE_URL}assets/socks/S10.jpg`,
     ],
     description: " Highly breathable and soft for casual daily wear, but retains moisture heavily.",
     care: 'Machine wash cold, gentle. Lay flat to dry.',
@@ -1413,8 +1413,8 @@ export const products = [
     colors: ['nude', 'white', 'sage'],
     colorHex: { nude: '#D4A895', white: '#FFFFFF', sage: '#9CAF88' },
     images: [
-      '/assets/bras/Brs9.jpg',
-      '/assets/bras/Brs10.jpg',
+      `${import.meta.env.BASE_URL}assets/bras/Brs9.jpg`,
+      `${import.meta.env.BASE_URL}assets/bras/Brs10.jpg`,
     ],
     description: 'Wireless, size-inclusive comfort bra made from our softest organic cotton. The light padding and elastic-free band makes this the perfect companion for long work-from-home days.',
     care: 'Machine wash cold. Hang dry.',

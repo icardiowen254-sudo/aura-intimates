@@ -59,7 +59,7 @@ export default function Sustainability() {
               Full transparency on our environmental and social impact updated annually.
             </p>
             <a
-              href="/assets/sustainability-report.pdf"
+              href={`${import.meta.env.BASE_URL}assets/sustainability-report.pdf`}
               download
               className="inline-block bg-cream text-ink px-8 py-3.5 text-xs tracking-widest uppercase font-sans hover:bg-blush transition-colors"
             >
